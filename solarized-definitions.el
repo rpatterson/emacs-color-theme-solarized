@@ -377,9 +377,9 @@ contains Solarized symbols."
                 (font-lock-variable-name-face ; Identifier
                  (,@fmt-none ,@fg-blue))
                 (font-lock-warning-face (,@fmt-bold ,@fg-red)) ; Error
-                (font-lock-doc-face (,@fmt-ital ,@fg-base01)) ; Comment
+                (font-lock-doc-face (,@fmt-ital ,@fg-cyan)) ; Comment
                 (font-lock-doc-string-face ; Comment (XEmacs-only)
-                 (,@fmt-ital ,@fg-base01))
+                 (,@fmt-ital ,@fg-cyan))
                 (font-lock-color-constant-face (,@fmt-none ,@fg-green))
                 (font-lock-comment-delimiter-face ; Comment
                  (,@fmt-ital ,@fg-base01))
