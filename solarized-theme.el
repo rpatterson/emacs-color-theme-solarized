@@ -4,7 +4,8 @@
          (locate-file "solarized-definitions.el" custom-theme-load-path
                       '("c" "")))
 
-(deftheme solarized solarized-description)
+(deftheme solarized "Color theme by Ethan Schoonover, created 2011-03-24.
+Ported to Emacs by Greg Pfeil, http://ethanschoonover.com/solarized.")
 
 (apply #'custom-theme-set-faces 'solarized (solarized-color-definitions))
 
